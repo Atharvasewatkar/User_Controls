@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="UserControls.AllPhones"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UserControls"
+             mc:Ignorable="d" Height="451" Width="792">
+    <Grid>
+
+        <!-- <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+        <Button Content="View details" Click="ShowDetails_k40" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+        <Image x:Name="Imagebox" Source="/Images/k40.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition >
+            <ColumnDefinition ></ColumnDefinition >
+            <ColumnDefinition ></ColumnDefinition >
+            <ColumnDefinition ></ColumnDefinition >
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" >
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_k40" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="40" ></Button>
+            <Image x:Name="Imagebox1" Source="/Images/k40.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.Column="1">
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_iphone13" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+            <Image x:Name="Imagebox2" Source="/Images/iphone13.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.Column="2">
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_iphone14" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+            <Image x:Name="Imagebox3" Source="/Images/iphone14.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.Column="3">
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_mi11" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+            <Image x:Name="Imagebox4" Source="/Images/mi11.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_mi11lite" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+            <Image x:Name="Imagebox5" Source="/Images/mi11lite.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_oppoF21" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+            <Image x:Name="Imagebox6" Source="/Images/oppoF21.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_miMix4" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+            <Image x:Name="Imagebox7" Source="/Images/miMix4.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="3">
+            <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+            <Button Content="View details" Click="ShowDetails_vivoX70" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" ></Button>
+            <Image x:Name="Imagebox8" Source="/Images/vivoX70.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+        </Grid>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="UserControls.TempUC1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UserControls"
+             mc:Ignorable="d" Height="209" Width="141">
+    <Grid>
+        <Rectangle  HorizontalAlignment="Left" Height="152" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="124"/>
+        <Button Content="View details" Click="ShowDetails" FontSize="15" FontStretch="Expanded" FontWeight="Heavy" Background="Green" BorderThickness="5" BorderBrush="Black" Opacity="20" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="124" Height="39" >
+        </Button>
+        <!-- <Button Content="Upload image" HorizontalAlignment="Center" VerticalAlignment="Center" Height="44" Width="92"  Click="UploadImage"/>-->
+        <Image x:Name="Imagebox" Source="/Images/k40.jpg" HorizontalAlignment="Left" Height="152" Margin="11,10,0,0" VerticalAlignment="Top" Width="150" />
+
+        <!--<Image x:Name="Imagebox" HorizontalAlignment="Left" Height="312" Margin="11,10,0,0" VerticalAlignment="Top" Width="250"  />-->
+    </Grid>
+</UserControl>
